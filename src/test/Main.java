@@ -20,6 +20,7 @@ public class Main {
        System.out.println("Денег на счету до обнуления - "+ Collections.min(accounts, new Comparator_money()).Putin());
        System.out.println("\nДанные аккаунтов после операций:");
        accounts.forEach(System.out::println);
+       System.out.println("Commit");
 
      }
      catch (Exception e){
